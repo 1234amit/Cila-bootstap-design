@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CILA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <div class="main-content">
+        <!-- navbar code start here -->
+        <nav class="navbar navbar-expand-lg fixed-top" data-aos="fade-down">
+            <div class="container-fluid">
+                <img src="./img/cilalogo.webp" alt="logo" height="50" />
+                <a class="navbar-brand" href="#">
+                    <h2 class="first-header">Cila Challenge</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navmenu">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Retour au jeu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Règles</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Résultats</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Causes</a>
+                        </li>
+                    </ul>
+
+                    <ul class="facebooklogodes">
+                        <img src="./img/face-logo-removebg-preview.png" alt="facebook-logo" class="facebookLogo" />
+                        <img src="./img/instagram.png" alt="human-logo" class="humanLogo" />
+
+                    </ul>
+
+                    <ul class="facebooklogodes">
+                        <button class="nav-button mt-2">Déconnexion</button>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar code end here -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4 center-box first-box" style="border-radius: 20px;">
+                    <!-- Your Box -->
+                    <div class="text-center">
+                        <div class="shadow-sm border p-3" style="border-radius: 5px; background-color: white;">
+                            <div class="boxTimerimage">
+                                <img src="./img/cilalogo.webp" alt="box-image">
+                            </div>
+                            <h3 class="heading" data-aos="fade-up">Jour #</h3>
+                            <div class="row my-5">
+                                <div class="col-md-4 ">
+                                    <button id="hours" class="timerButton">04</button>
+                                    <p class="timercontent">Heures</p>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <button id="minutes" class="timerButton">06</button>
+                                    <p class="timercontent">Minutes</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="seconds" class="timerButton">45</button>
+                                    <p class="timercontent">Secondes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-3">
+                <div class="col-md-4 offset-md-4 center-box rounded">
+                    <!-- Your Box -->
+                    <div class="text-center">
+                        <div class="shadow-sm border p-2" style="border-radius: 5px; background-color: white;">
+                            <button class="play-button mt-3 btn-fixed-width" data-aos="fade-up">Jouer au quiz du
+                                jour</button>
+                            <button class="play-button my-3 btn-fixed-width" data-aos="fade-up">Découvrir le Challenge
+                                du jour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-4 offset-md-4 center-box rounded">
+                    <!-- Your Box -->
+                    <div class="text-center">
+                        <div class="shadow-sm border p-2" style="border-radius: 5px; background-color: white;">
+                            <h4 class="fourContant mt-3" data-aos="zoom-in">Choupo Moteam</h4>
+                            <img class="my-5" data-aos="zoom-in" src="./img/lastImage-removebg-preview.png"
+                                alt="lastImage-removebg-preview" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer mt-5">
+            <footer class="bg-dark text-white text-center py-3">
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <p>Copyright © 2023 Site Web Cila</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-inline horizontal-list">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Retour au jeu</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Règles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Résultats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Causes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            var countdownDate = new Date("Sep 20, 2023 00:00:00").getTime();
+            var x = setInterval(function () {
+                var now = new Date().getTime();
+                var distance = countdownDate - now;
+
+                if (distance <= 0) {
+                    clearInterval(x);
+                    document.getElementById("hours").innerHTML = "00";
+                    document.getElementById("minutes").innerHTML = "00";
+                    document.getElementById("seconds").innerHTML = "00";
+                    document.getElementById("coundown").innerHTML = "Countdown expired!";
+                } else {
+                    var hours = Math.floor(distance / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+                    document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+                    document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+                }
+            }, 1000);
+        </script>
+
+        <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
